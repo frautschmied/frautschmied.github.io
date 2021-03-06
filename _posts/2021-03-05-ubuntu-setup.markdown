@@ -67,7 +67,7 @@ install [oh-my-zsh](https://ohmyz.sh/) ([Gitee replca in China](https://gitee.co
 
     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-install [p10k](https://github.com/romkatv/powerlevel10k)
+install [p10k](https://github.com/romkatv/powerlevel10k) (and [Font](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k))
 
     git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
