@@ -89,12 +89,12 @@ add username and email
 
 replace `GITHUB_FULLNAME` with the GitHub **FULL NAME** at *GitHub -> Account settings -> Profile -> Public profile -> Name*, but **NOT** the login username
 
-replace `RANDOMNUMBER+GITHUBNAME@users.noreply.github.com` with the real email address or check *GitHub -> Account settings -> Emails -> Keep my email addresses private* and the email address there
+replace `RANDOMNUMBER+GITHUBNAME@users.noreply.github.com` with the real email address or check *GitHub -> Account settings -> Emails -> Keep my email addresses private* and replace it with the email address below
 
     git config --global user.name "GITHUB_FULLNAME"
     git config --global user.email "RANDOMNUMBER+GITHUBNAME@users.noreply.github.com"
 
-they will be in the every git commit
+they will be in every git commit
 
 [setup ssh key](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 
