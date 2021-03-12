@@ -18,6 +18,16 @@ add line (replace `USER` with current username)
 
 save and exit
 
+# ssh login (remote server)
+
+on client side, generate SSH key pair for the first time
+
+    ssh-keygen
+
+on client side, send public key
+
+    ssh-copy-id user@hostname
+
 # set hostname (if allowed to)
 
 *WSL copies Windows hostname at every boot-up*
