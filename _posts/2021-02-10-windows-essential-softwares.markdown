@@ -15,6 +15,8 @@ video player
 PDF reader
 ## LibreOffice (or MS Office)
 office stuff
+## GIMP (free Photoshop)
+serious users please purchase Ps
 # pro-and-frees
 ## Blender
 3D creation
