@@ -121,4 +121,25 @@ generate config file and reboot
     sudo update-grub
     reboot
 
+# WSL2 env
+
+add Windows IP address (if WSL2 doesn't access Windows via localhost yet)
+
+    export WSL_HOST=$(cat /etc/resolv.conf |grep -oP '(?<=nameserver\ ).*')
+
+add browser to env
+
+
+    export BROWSER="/mnt/c/Program Files (x86)/Google/Chrome/Application/chrome.exe"
+
+if you work with Jupyter Notebook
+
+    jupyter notebook --generate-config
+    sed -i "s/# c.NotebookApp.use_redirect_file = True/c.NotebookApp.use_redirect_file = False/g" ~/.jupyter/jupyter_notebook_config.py
+
+if you work with Jupyter Lab
+
+    jupyter lab --generate-config
+    sed -i "s/# c.NotebookApp.use_redirect_file = True/c.NotebookApp.use_redirect_file = False/g" ~/.jupyter/jupyter_lab_config.py
+
 **issue this repo on anything outdate*
