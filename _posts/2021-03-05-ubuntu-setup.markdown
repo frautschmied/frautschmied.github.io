@@ -125,7 +125,7 @@ generate config file and reboot
 
 add Windows IP address (if WSL2 doesn't access Windows via localhost yet)
 
-    export WSL_HOST=$(cat /etc/resolv.conf |grep -oP '(?<=nameserver\ ).*')
+    export WSL_HOST=$(cat /etc/resolv.conf | grep -oP '(?<=nameserver\ ).*')
 
 add browser to env
 
