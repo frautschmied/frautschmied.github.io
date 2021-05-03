@@ -17,6 +17,8 @@ PDF reader
 office stuff
 ## GIMP (free Photoshop)
 serious users please purchase Ps
+## Joplin (free Evernote)
+better than Evernote
 # pro-and-frees
 ## Blender
 3D creation
@@ -39,7 +41,7 @@ SVN
 Linux VM
 ## Microsoft Visual Studio Code
 code editor
-# fancy-fancy
+# fancy
 ## Taskbar stats
 live system stats
 ## TranslucentTB
