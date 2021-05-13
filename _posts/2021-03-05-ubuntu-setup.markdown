@@ -142,4 +142,18 @@ if you work with Jupyter Lab
     jupyter lab --generate-config
     sed -i "s/# c.NotebookApp.use_redirect_file = True/c.NotebookApp.use_redirect_file = False/g" ~/.jupyter/jupyter_lab_config.py
 
+# system time: dual boot with Windows
+
+Ubuntu
+
+    timedatectl set-local-rtc 1 --adjust-system-clock
+
+OR Win64
+
+    Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_QWORD /d 1
+
+OR Win32
+
+    Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
+
 **issue this repo on anything outdate*
